@@ -1,5 +1,7 @@
 Install Manual Clash OpenWRT
 
+Tester Freeware 18.06.2 ORI & Modif
+
 Creator Boychongzen aka Xroot
 
 cd /tmp
