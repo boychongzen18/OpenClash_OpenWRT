@@ -1,0 +1,17 @@
+
+Install Manual OpenClash 
+
+Creator Boychongzen aka Xroot
+
+Tester OpenWRT 18.06.2 & 19.07.6
+
+
+opkg update 
+
+opkg install luci luci-base iptables dnsmasq-full coreutils coreutils-nohup bash curl ca-certificates
+opkg install ipset ip-full iptables-mod-tproxy iptables-mod-extra libcap libcap-bin ruby ruby-yaml kmod-tun 
+opkg install luci-compat ip6tables-mod-nat
+
+opkg remove dnsmasq && opkg install dnsmasq-full
+
+opkg install luci-app-openclash_0.42.10-beta_all.ipk
