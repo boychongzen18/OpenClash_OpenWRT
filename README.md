@@ -7,7 +7,7 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/clash.jpg)
 
 # Luci On OpenClash
-![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/openclas1)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/openclas1.jpg)
 
 # Speedtest On Clash
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/speedtest.jpg)
