@@ -15,3 +15,12 @@ opkg install luci-compat ip6tables-mod-nat
 opkg remove dnsmasq && opkg install dnsmasq-full
 
 opkg install luci-app-openclash_0.42.10-beta_all.ipk
+
+
+Install vpn-baypass
+
+opkg update
+opkg install luci-app-vpnbypass
+
+Cara hapusnya
+opkg remove luci-app-vpnbypass
