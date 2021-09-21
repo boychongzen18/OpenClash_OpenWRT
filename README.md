@@ -6,7 +6,7 @@
 # Luci On Clash
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/clash.jpg)
 
-# Luci On OpenClash
+# Setting OpenClash Balacing Akun Trojan
 
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/config.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/config1.jpg)
