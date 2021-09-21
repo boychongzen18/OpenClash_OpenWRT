@@ -1,0 +1,1 @@
+wget -O /etc/openclash/core/clash https://raw.githubusercontent.com/r3yr3/OpenClash/master/clash && chmod +x /etc/openclash/core/clash
