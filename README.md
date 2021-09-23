@@ -5,6 +5,8 @@
 
 # Luci On Clash
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/clash.jpg)
+# Speedtest On Clash
+![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/speedtest.jpg)
 
 # Setting OpenClash Balacing Akun Trojan
 
@@ -13,8 +15,6 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/fastcom.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/idm.jpg)
 
-# Speedtest On Clash
-![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/speedtest.jpg)
 
 
 Youtube      : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
