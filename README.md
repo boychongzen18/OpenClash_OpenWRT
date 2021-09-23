@@ -8,9 +8,10 @@
 
 # Setting OpenClash Balacing Akun Trojan
 
-![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/config.jpg)
-![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/config1.jpg)
-![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/akun-tj.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/menu-openclash.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/yacd.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/fastcom.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/idm.jpg)
 
 # Speedtest On Clash
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/speedtest.jpg)
