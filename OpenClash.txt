@@ -16,6 +16,9 @@ opkg remove dnsmasq && opkg install dnsmasq-full
 
 opkg install luci-app-openclash_0.42.10-beta_all.ipk
 
+Cara hapusnya
+opkg remove luci-app-openclash
+
 
 Install vpn-baypass
 
