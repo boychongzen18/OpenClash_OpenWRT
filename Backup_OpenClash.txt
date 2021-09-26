@@ -1,0 +1,16 @@
+
+
+Hapus MyIP OpenClash
+
+/usr/lib/lua/luci/view/openclash/myip.htm
+
+edit enable & disable
+/usr/lib/lua/luci/view/openclash/client.lua
+
+Backup OpenClash
+
+klik global settings > Version Update > BACKUP OPENCLASH
+
+Upload File Backup OpenClash
+
+Klik Config Manage > Upload File Type > Backup File > Cari Backup OpenClash
