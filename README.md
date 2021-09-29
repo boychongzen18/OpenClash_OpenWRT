@@ -1,4 +1,4 @@
-# Clash & OpenClash Openwrt On Windows / Android
+# Clash & OpenClash Openwrt On Android / Windows & Linux 
 
 # Save File Clash
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/terminal.jpg)
