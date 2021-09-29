@@ -21,7 +21,7 @@ Youtube      : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
 Tutorial On Android : https://youtu.be/eCAmqmiji18
 
-Tutorial On Linux : https://youtu.be/OQfLq9lErYI
+Tutorial On Linux : https://youtu.be/MMx9W4wqvzQ
                       
 My Website    : https://hackingforlive.wordpress.com
 
