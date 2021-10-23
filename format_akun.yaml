@@ -1,0 +1,47 @@
+- name: TROJAN
+  type: trojan
+  server: host-atau-ip
+  port: port
+  password: password-uuid
+  udp: true
+  sni: bug.com
+  skip-cert-verify: true
+---------------------------------------------
+- name: SHADOWSOCKS
+  type: ss
+  server: host-atau-ip
+  port: port
+  cipher: chacha20-ietf-poly1305
+  password: password-uuid
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: bug.com
+---------------------------------------------    
+- name: VMESS
+  type: vmess
+  server: host-atau-ip
+  port: port
+  uuid: password-uuid
+  alterId: 32
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bug.com
+  network: ws
+  ws-path: "/v2ray"
+  ws-headers:
+    Host: bug.com
+---------------------------------------------
+- name: SHADOWSOCKS-R
+  type: ssr
+  server: host-atau-ip
+  port: port
+  cipher: aes-256-cfb
+  password: password-uuid
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  obfs-param: obfs=tls;obfs-host=bug.com
+  udp: true
