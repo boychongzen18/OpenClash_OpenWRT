@@ -45,3 +45,20 @@
   protocol: auth_sha1_v4
   obfs-param: obfs=tls;obfs-host=bug.com
   udp: true
+---------------------------------------------  
+  Format Vmess-GRPC:
+---------------------------------------------  
+- name: "SG-GRPC"
+  type: vmess
+  server: "do9.kitu.xyz"
+  port: 443
+  uuid: isi uuid
+  alterId: 2
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: "example.com"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "v2ray-vmess-grpc"
