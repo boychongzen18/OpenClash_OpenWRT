@@ -1,1 +1,9 @@
+
+Link Core Openclash
 wget -O /etc/openclash/core/clash https://raw.githubusercontent.com/r3yr3/OpenClash/master/clash && chmod +x /etc/openclash/core/clash
+
+
+Install Manual Loadbalance 
+
+opkg update 
+opkg install mwan3 luci-app-mwan3
