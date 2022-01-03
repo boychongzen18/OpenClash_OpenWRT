@@ -1,8 +1,8 @@
 - name: TROJAN
   type: trojan
-  server: host-atau-ip
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   port: port
-  password: password-uuid
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   udp: true
   sni: bug.com
   skip-cert-verify: true
