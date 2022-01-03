@@ -19,21 +19,21 @@
     mode: tls
     host: bug.com
 ---------------------------------------------    
-- name: VMESS
+- name: akun_vmess
   type: vmess
-  server: host-atau-ip
-  port: port
-  uuid: password-uuid
+  server: xxxxxxxxxxxxxxxxxx
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
   alterId: 32
   cipher: auto
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: bug.com
+  servername: bughost
   network: ws
-  ws-path: "/v2ray"
+  ws-path: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   ws-headers:
-    Host: bug.com
+    Host: bughost
 ---------------------------------------------
 - name: SHADOWSOCKS-R
   type: ssr
