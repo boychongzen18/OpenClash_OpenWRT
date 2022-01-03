@@ -1,25 +1,25 @@
 - name: TROJAN
   type: trojan
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  port: port
+  port: 443
   password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   udp: true
   sni: bug.com
   skip-cert-verify: true
 ---------------------------------------------
-- name: SHADOWSOCKS
+- name: SODOK
   type: ss
-  server: host-atau-ip
-  port: port
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxx
+  port: 1443
   cipher: chacha20-ietf-poly1305
-  password: password-uuid
+  password: xxxxxxxxxxxxxxxxx
   udp: true
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: bug.com
+    host: bughost
 ---------------------------------------------    
-- name: akun_vmess
+- name: VMESS
   type: vmess
   server: xxxxxxxxxxxxxxxxxx
   port: 443
