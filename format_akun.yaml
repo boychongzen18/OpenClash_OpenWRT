@@ -7,6 +7,22 @@
   sni: bug.com
   skip-cert-verify: true
 ---------------------------------------------
+- name: "[Trojan] Trojan-Go"
+   server: server
+   port: 443
+   type: trojan
+   password: "example"
+   network: ws
+   sni: example.com
+   servername: example.com
+   skip-cert-verify: true 
+   tls: true
+   udp: true
+   ws-opts:
+     path: /path
+     headers:
+       Host: example.com
+ ---------------------------------------------    
 - name: SODOK
   type: ss
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxx
