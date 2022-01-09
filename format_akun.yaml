@@ -64,17 +64,17 @@
 ---------------------------------------------  
   Format Vmess-GRPC:
 ---------------------------------------------  
-- name: "SG-GRPC"
+- name: "Vmees-GRPC"
   type: vmess
-  server: "do9.kitu.xyz"
-  port: 443
+  server: xxxxxxxxxxxxxxxxxxxxxx
+  port: 8443
   uuid: isi uuid
-  alterId: 2
+  alterId: 0
   cipher: auto
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: "example.com"
+  servername: bughost
   network: grpc
   grpc-opts:
-    grpc-service-name: "v2ray-vmess-grpc"
+    grpc-service-name: v2ray-vmess-grpc
