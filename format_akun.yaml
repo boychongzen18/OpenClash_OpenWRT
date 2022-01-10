@@ -7,18 +7,21 @@
   sni: bug.com
   skip-cert-verify: true
 ---------------------------------------------
-proxies:
-- name: trojan-gRPC
-  type: trojan
-  server: servermu.com
+- name: GRPC-IDN
+  type: vmess
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   port: 443
-  password: isi uuid 
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: bugmu.com
-  skip-cert-verify: true
-  network : grpc
-  grpc-opts:
-    grpc-service-name: isi service name	
+  skip-cert-verify: true 
+  unified-delay: true
+  tls: true
+  servername: BugHost.com
+  network: grpc
+  grpc-opts:      
+    grpc-service-name: grpc
 ---------------------------------------------
 - name: "[Trojan] Trojan-Go"
    server: server
