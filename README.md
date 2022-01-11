@@ -15,6 +15,9 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/3.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/4.jpg)
 
+# Core Premium & Meta
+![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_premi.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_meta.jpg)
 
 
 Youtube      : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
