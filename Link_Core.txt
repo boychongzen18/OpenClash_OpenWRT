@@ -1,4 +1,5 @@
 
+Bahan Sudah Jadi Core2nya
 
 Link Core Premium
 
@@ -7,3 +8,13 @@ https://drive.google.com/file/d/1c8ew04QoLjRgtcDPsFlOuC2mPfQhBxK_/view?usp=shari
 Link Core Meta
 
 https://drive.google.com/file/d/1a87n_Aph0iWjtxIiCd-KzKpI6C6Amerl/view?usp=sharing
+
+
+Core Premium via Dowload Manual
+
+
+wget -O /etc/openclash/core/clash https://raw.githubusercontent.com/r3yr3/OpenClash/master/clash && chmod +x /etc/openclash/core/clash
+
+
+
+
