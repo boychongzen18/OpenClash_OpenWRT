@@ -27,3 +27,14 @@ opkg install luci-app-vpnbypass
 
 Cara hapusnya
 opkg remove luci-app-vpnbypass
+
+
+auto start OpenClash On Boot
+Open system/startup copas tulisan di Local Startup
+
+/etc/init.d/openclash enable
+exit 0
+
+
+
+
