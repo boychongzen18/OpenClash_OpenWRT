@@ -1,11 +1,13 @@
-- name: TROJAN
+- name: IDN
   type: trojan
-  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  server: xxxxxxxxxxxxxxxxxx
   port: 443
-  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  password: xxxxxxxxxxxxxxxxxx
   udp: true
-  sni: bug.com
+  sni: xxxxxxxxxxxxxxxxxx
   skip-cert-verify: true
+  interface-name: eth1/wwan0
+  unified-delay: true
 ---------------------------------------------
 - name: GRPC-IDN
   type: vmess
