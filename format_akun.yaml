@@ -53,21 +53,23 @@
     mode: tls
     host: bughost
 ---------------------------------------------    
-- name: VMESS
+- name: VMESS-WS
   type: vmess
-  server: xxxxxxxxxxxxxxxxxx
+  server: XXXXXXXXXXXXXXX
   port: 443
-  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  uuid: XXXXXXXXXXXXXXX
   alterId: 32
   cipher: auto
   udp: true
   skip-cert-verify: true
+  unified-delay: true
+  interface-name: eth1/wwan0
   tls: true
-  servername: bughost
+  servername: bughost.com
   network: ws
-  ws-path: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ws-path: XXXXXXXXXXXXXXX
   ws-headers:
-    Host: bughost
+    Host: bughost.com
 ---------------------------------------------
 - name: SHADOWSOCKS-R
   type: ssr
