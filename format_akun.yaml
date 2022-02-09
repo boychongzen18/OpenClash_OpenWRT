@@ -28,13 +28,15 @@
 ---------------------------------------------
 - name: Trojan-WS
   type: trojan
-  server: xxxxxxxxxxxxxxxxxxxxxxxx
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   port: 443
-  password: xxxxxxxxxxxxxxxxxxxxxxxx
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   sni: BugHost.com
   skip-cert-verify: true
   unified-delay: true
-  interface-name: eth1/wwan0/usb0
+  interface-name: eth1
+  tls: true
+  udp: true
   network: ws  
   ws-opts:
      path: /fastssh
