@@ -6,8 +6,8 @@
   udp: true
   sni: xxxxxxxxxxxxxxxxxx
   skip-cert-verify: true
-  interface-name: eth1/wwan0/usb0
   unified-delay: true
+  interface-name: eth1/wwan0/usb0
 ---------------------------------------------
 - name: GRPC-IDN
   type: vmess
@@ -19,6 +19,7 @@
   udp: true
   skip-cert-verify: true 
   unified-delay: true
+  interface-name: eth1/wwan0/usb0
   tls: true
   servername: BugHost.com
   network: grpc
@@ -41,14 +42,16 @@
        Host: BugHost.com
 ---------------------------------------------
 - name: "[Trojan] Trojan-Go"
-   server: server
-   port: 443
-   type: trojan
-   password: "example"
-   network: ws
-   sni: example.com
-   servername: example.com
-   skip-cert-verify: true 
+  server: server
+  port: 443
+  type: trojan
+  password: "example"
+  network: ws
+  sni: example.com
+  servername: example.com
+  skip-cert-verify: true 
+  unified-delay: true
+  interface-name: eth1/wwan0/usb0
    tls: true
    udp: true
    ws-opts:
@@ -108,6 +111,8 @@
   cipher: auto
   udp: true
   skip-cert-verify: true
+  unified-delay: true
+  interface-name: eth1/wwan0/usb0
   tls: true
   servername: bughost
   network: grpc
