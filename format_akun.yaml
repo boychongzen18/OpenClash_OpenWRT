@@ -41,23 +41,23 @@
      headers:
        Host: BugHost.com
 ---------------------------------------------
-- name: "[Trojan] Trojan-Go"
-  server: server
-  port: 443
+- name: Trojan-Go
   type: trojan
-  password: "example"
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   network: ws
-  sni: example.com
-  servername: example.com
+  sni: BugHost.com
   skip-cert-verify: true 
   unified-delay: true
-  interface-name: eth1/wwan0/usb0
-   tls: true
-   udp: true
-   ws-opts:
-     path: /path
+  servername: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  interface-name: eth1
+  tls: true
+  udp: true
+  ws-opts:
+     path: /howdy
      headers:
-       Host: example.com
+       Host: BugHost.com
  ---------------------------------------------    
 - name: SODOK
   type: ss
