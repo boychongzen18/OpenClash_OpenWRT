@@ -6,7 +6,7 @@
   udp: true
   sni: xxxxxxxxxxxxxxxxxx
   skip-cert-verify: true
-  interface-name: eth1/wwan0
+  interface-name: eth1/wwan0/usb0
   unified-delay: true
 ---------------------------------------------
 - name: GRPC-IDN
@@ -32,6 +32,8 @@
   password: xxxxxxxxxxxxxxxxxxxxxxxx
   sni: BugHost.com
   skip-cert-verify: true
+  unified-delay: true
+  interface-name: eth1/wwan0/usb0
   network: ws  
   ws-opts:
      path: /fastssh
@@ -76,7 +78,7 @@
   udp: true
   skip-cert-verify: true
   unified-delay: true
-  interface-name: eth1/wwan0
+  interface-name: eth1/wwan0/usb0
   tls: true
   servername: bughost.com
   network: ws
