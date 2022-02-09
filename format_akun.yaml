@@ -25,6 +25,19 @@
   grpc-opts:      
     grpc-service-name: grpc
 ---------------------------------------------
+- name: Trojan-WS
+  type: trojan
+  server: xxxxxxxxxxxxxxxxxxxxxxxx
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxxx
+  sni: BugHost.com
+  skip-cert-verify: true
+  network: ws  
+  ws-opts:
+     path: /fastssh
+     headers:
+       Host: BugHost.com
+---------------------------------------------
 - name: "[Trojan] Trojan-Go"
    server: server
    port: 443
