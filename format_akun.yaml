@@ -42,7 +42,7 @@
      path: /fastssh
      headers:
        Host: BugHost.com
----------------------------------------------
+
 - name: Trojan-Go
   type: trojan
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -60,6 +60,24 @@
      path: /howdy
      headers:
        Host: BugHost.com
+       
+ - name: Trojan-GFW
+  type: trojan
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  network: trojan-gfw
+  sni: BugHost.com
+  skip-cert-verify: true 
+  unified-delay: true
+  servername: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  interface-name: eth1
+  tls: true
+  udp: true
+  ws-opts:
+     path: /fastssh
+     headers:
+       Host: BugHost.com      
  ---------------------------------------------    
 - name: SODOK
   type: ss
@@ -90,21 +108,8 @@
   ws-path: XXXXXXXXXXXXXXX
   ws-headers:
     Host: bughost.com
----------------------------------------------
-- name: SHADOWSOCKS-R
-  type: ssr
-  server: host-atau-ip
-  port: port
-  cipher: aes-256-cfb
-  password: password-uuid
-  obfs: tls1.2_ticket_auth
-  protocol: auth_sha1_v4
-  obfs-param: obfs=tls;obfs-host=bug.com
-  udp: true
----------------------------------------------  
-  Format Vmess-GRPC:
----------------------------------------------  
-- name: "Vmees-GRPC"
+    
+ - name: "Vmees-GRPC"
   type: vmess
   server: xxxxxxxxxxxxxxxxxxxxxx
   port: 8443
@@ -119,4 +124,19 @@
   servername: bughost
   network: grpc
   grpc-opts:
-    grpc-service-name: v2ray-vmess-grpc
+    grpc-service-name: v2ray-vmess-grpc  
+    
+---------------------------------------------
+- name: SHADOWSOCKS-R
+  type: ssr
+  server: host-atau-ip
+  port: port
+  cipher: aes-256-cfb
+  password: password-uuid
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  obfs-param: obfs=tls;obfs-host=bug.com
+  udp: true
+---------------------------------------------  
+ 
+
