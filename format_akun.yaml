@@ -48,7 +48,7 @@
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   port: 443
   password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  network: ws
+  network: trojan-go
   sni: BugHost.com
   skip-cert-verify: true 
   unified-delay: true
