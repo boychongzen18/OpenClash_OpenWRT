@@ -1,0 +1,93 @@
+﻿port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - name: "TJ-01"
+    type: trojan
+    server: sg-he.tjvpn.org
+    port: 443
+    password: 960c73a0-8ba3-11ec-b234-225401db9d57
+    udp: true
+    sni: p16-tiktok-sg.ibyteimg.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+  - name: "TJ-02"
+    type: trojan
+    server: sg-ovh.tjvpn.org
+    port: 443
+    password: e29bb030-8ba3-11ec-b338-225401db9d57
+    udp: true
+    sni: p16-tiktok-sg.ibyteimg.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+  - name: "TJ-03"
+    type: trojan
+    server: id-1.tjvpn.org
+    port: 443
+    password: 10250d00-8ba4-11ec-b032-225401db9d57
+    udp: true
+    sni: p16-tiktok-sg.ibyteimg.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+proxy-groups:
+  - name: Manual Server
+    type: select
+    proxies:
+      - "Best Ping ✓"
+      - "TJ-03"
+      - "TJ-02"
+      - "TJ-01"
+  - name: Best Ping ✓
+    type: url-test
+    proxies:
+      - "TJ-03"
+      - "TJ-02"
+      - "TJ-01"
+    url: https://www.google.com/
+    interval: 300
+  - name: "LOAD"
+    type: load-balance
+    proxies:
+      - "TJ-03"
+      - "TJ-02"
+      - "TJ-01"
+    url: 'https://www.google.com/'
+    interval: 300
+rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - DOMAIN,analytics.google.com,REJECT
+  - DOMAIN,analyticsinsights-pa.googleapis.com,REJECT
+  - DOMAIN,analyticsreporting.googleapis.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,googleadservices.com,REJECT
+  - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+  - DOMAIN-SUFFIX,googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,googletagmanager.com,REJECT
+  - DOMAIN-SUFFIX,googletagservices.com,REJECT
+  - DOMAIN-SUFFIX,google-analytics.com,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-KEYWORD,analytics,REJECT
+  - DOMAIN-KEYWORD,analysis,REJECT
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - GEOIP,IR,DIRECT
+  - MATCH,, Manual Server , LOAD, dns-failed
+
