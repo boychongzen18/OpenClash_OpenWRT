@@ -19,6 +19,9 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_premi.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_meta.jpg)
 
+# Clash For Android
+![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/clash_adroid.jpg)
+
 
 Youtube      : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
