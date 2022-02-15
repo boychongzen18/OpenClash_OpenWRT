@@ -1,3 +1,20 @@
+Sudah di Uji SNI All Config Openclash
+
+Created Boychongzen aka Xroot
+
+
+
+- name: SSH
+   type: http
+   server: xxxxxxxxxxxxx
+   port: 443
+   username: xxxxxxxxxx
+   password: x
+   skip-cert-verify: true
+   tls: true
+   sni: BugHost.com
+   interface-name: eth1	  
+
 - name: IDN
   type: trojan
   server: xxxxxxxxxxxxxxxxxx
