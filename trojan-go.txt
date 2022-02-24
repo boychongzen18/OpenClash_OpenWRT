@@ -1,0 +1,35 @@
+
+Creator Config Openclash Trojan-Go
+
+Boychonzgen aka Xroot
+
+
+edit config ymal di Folder
+
+ etc/openclash/rule_provider
+
+
+
+proxies:
+- name: Trojan-Go
+  type: trojan
+  server: xxxxxxxxxxxxxxxxxxxx
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxx
+  network: trojan-go
+  sni: bughost.com
+  skip-cert-verify: true 
+  unified-delay: true
+  servername: xxxxxxxxxxxxxxxxxxxxx
+  tls: true
+  udp: true
+  ws-opts:
+     path: /fastssh
+     headers:
+       Host: bughost.com  
+  interface-name: eth1
+  
+  
+  
+
+NB : Config di atas di copas di akun ymal masing2 okeh   
