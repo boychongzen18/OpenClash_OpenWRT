@@ -143,6 +143,24 @@ Created Boychongzen aka Xroot
   grpc-opts:
     grpc-service-name: v2ray-vmess-grpc  
     
+ 
+  - name: Edukasi ( Tsel ,XL Axis & Im3 )
+    type: vmess
+    server: xxxxxxxxxxxxxxxxxxxxxxxx
+    port: 80
+    uuid: xxxxxxxxxxxxxxxxxxxxxxxx
+    alterId: 0
+    cipher: auto
+    udp: false
+    skip-cert-verify: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: xxxxxxxxxxxxxxxxxxxxxxxx
+    interface-name: eth1   
+    
 ---------------------------------------------
 - name: SHADOWSOCKS-R
   type: ssr
