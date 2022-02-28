@@ -10,7 +10,7 @@ edit config ymal di Folder
  etc/openclash/proxy_provider
 
 		
-  - name: Edukasi-30GB
+  - name: Edukasi ( Tsel ,XL Axis & Im3 )
     type: vmess
     server: xxxxxxxxxxxxxxxxxxxx
     port: 80
