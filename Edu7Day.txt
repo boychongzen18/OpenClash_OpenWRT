@@ -7,7 +7,7 @@ Boychonzgen aka Xroot
 
 edit config ymal di Folder
 
- etc/openclash/rule_provider
+ etc/openclash/proxy_provider
 
 		
   - name: Edukasi-30GB
