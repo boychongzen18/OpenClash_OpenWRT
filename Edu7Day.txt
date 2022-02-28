@@ -1,0 +1,31 @@
+Creator Config Openclash Vmess Port 80
+
+Tester Operator IM3 & Paket Edukasi
+
+Boychonzgen aka Xroot
+
+
+edit config ymal di Folder
+
+ etc/openclash/rule_provider
+
+		
+  - name: Edukasi-30GB
+    type: vmess
+    server: xxxxxxxxxxxxxxxxxxxx
+    port: 80
+    uuid: xxxxxxxxxxxxxxxxxxxxxxxx
+    alterId: 0
+    cipher: auto
+    udp: false
+    skip-cert-verify: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: xxxxxxxxxxxxxxxxxx	
+    interface-name: eth1
+
+
+NB : Config di atas di copas di akun ymal masing2 okeh 	
