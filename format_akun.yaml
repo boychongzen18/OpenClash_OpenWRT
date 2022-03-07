@@ -173,5 +173,16 @@ Created Boychongzen aka Xroot
   obfs-param: obfs=tls;obfs-host=bug.com
   udp: true
 ---------------------------------------------  
+- name: Akun_Sock5
+  type: socks5
+  server: xxxxxxxxxxxxxxxxx
+  port: 443
+  username: xxxxxxxxxxxxx
+  password: xxxxxxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: BugHost
+  interface-name: eth1
  
 
