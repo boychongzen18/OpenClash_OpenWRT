@@ -95,18 +95,30 @@ Created Boychongzen aka Xroot
      path: /fastssh
      headers:
        Host: BugHost.com      
- ---------------------------------------------    
-- name: SODOK
+ ---------------------------------------------  
+ - name: SHADOWSOCKS-TLS
   type: ss
-  server: xxxxxxxxxxxxxxxxxxxxxxxxxxx
-  port: 1443
-  cipher: chacha20-ietf-poly1305
+  server: xxxxxxxxxxxxxxxxx
+  port: xxxxxxxxxxxxxxxx
+  cipher: aes-256-cfb
   password: xxxxxxxxxxxxxxxxx
   udp: true
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: bughost
+    host: BugHost
+  interface-name: eth1   
+  
+- name: SHADOWSOCKS-R
+  type: ssr
+  server: xxxxxxxxxxxxxxxxx
+  port: xxxxxxxxxxxxxxxxx
+  cipher: aes-256-cfb
+  password: xxxxxxxxxxxxxxxxx
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  obfs-param: obfs=tls;obfs-host=bug.com
+  udp: true
 ---------------------------------------------    
 - name: VMESS-WS
   type: vmess
@@ -126,7 +138,7 @@ Created Boychongzen aka Xroot
   ws-headers:
     Host: bughost.com
     
- - name: "Vmees-GRPC"
+ - name: Vmees-GRPC
   type: vmess
   server: xxxxxxxxxxxxxxxxxxxxxx
   port: 8443
@@ -160,18 +172,7 @@ Created Boychongzen aka Xroot
       headers:
         Host: xxxxxxxxxxxxxxxxxxxxxxxx
     interface-name: eth1   
-    
----------------------------------------------
-- name: SHADOWSOCKS-R
-  type: ssr
-  server: host-atau-ip
-  port: port
-  cipher: aes-256-cfb
-  password: password-uuid
-  obfs: tls1.2_ticket_auth
-  protocol: auth_sha1_v4
-  obfs-param: obfs=tls;obfs-host=bug.com
-  udp: true
+ 
 ---------------------------------------------  
 - name: Akun_Sock5
   type: socks5
