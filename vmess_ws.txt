@@ -21,6 +21,12 @@ Sudah di Tester Openclash
   interface-name: eth1
   
   
+edit config ymal di Folder
+
+etc/openclash/proxy_provider
+  
+  
+  
   
 Happy Surfing
 
