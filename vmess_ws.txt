@@ -1,0 +1,29 @@
+Pilot Vmess Websocket
+
+Sudah di Tester Openclash
+
+
+- name: Vmess WS
+  type: vmess
+  server: BugHost
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    headers:
+      Host: Akun
+  interface-name: eth1
+  
+  
+  
+Happy Surfing
+
+Regards Boychongzen aka Xroot
+  
+	
