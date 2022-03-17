@@ -20,7 +20,7 @@ Config Openclash
   tls: true
   udp: true
   ws-opts:
-     path: /fastssh
+     path: /xxxxxxxxxxxx
      headers:
        Host: Bughost / Akun
   interface-name: eth1
