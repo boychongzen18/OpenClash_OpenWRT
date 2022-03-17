@@ -1,0 +1,42 @@
+Pilot Trojan GO
+
+Sudah di Tester Openclash
+
+
+Config Openclash 
+
+
+
+- name: Trojan-GO
+  type: trojan
+  server: Akun / Bughost
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxxxx
+  network: trojan-go
+  sni: Bughost / Akun
+  skip-cert-verify: true 
+  unified-delay: true
+  servername: Akun / Bughost
+  tls: true
+  udp: true
+  ws-opts:
+     path: /fastssh
+     headers:
+       Host: Bughost / Akun
+  interface-name: eth1
+  
+  
+  
+  
+  
+edit config ymal di Folder
+
+etc/openclash/proxy_provider
+  
+NB : Klau TKPnya gk Konek bisa Mode Bolak Balik,
+     Config di atas di copas di akun ymal masing2 okeh   
+  
+  
+Happy Surfing
+
+Regards Boychongzen aka Xroot
