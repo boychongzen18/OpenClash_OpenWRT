@@ -1,0 +1,26 @@
+
+Cara Mod Openclash Lebih Ringan
+
+A.Edit & Copas File
+
+1.myip.htm
+2.developer.htm
+3.status.htm
+4.client.lua
+
+
+
+/usr/lib/lua/luci/view/openclash/myip.htm
+
+B.Ganti nama 
+
+client.lua < COPAS ke Folder Openclash
+
+
+usr/lib/lua/luci/model/cbi/openclash/client.lua
+
+####################################################
+
+
+
+Creator Boychongzen aka Xroot
