@@ -8,6 +8,10 @@ A.Edit & Copas File
 3.status.htm
 4.client.lua
 
+Download Link IPK
+
+https://www.mediafire.com/file/ofud686ca12imqy/luci-app-openclash_0.44.34-beta_all.ipk/file
+
 
 
 /usr/lib/lua/luci/view/openclash/myip.htm
