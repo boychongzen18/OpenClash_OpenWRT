@@ -15,7 +15,11 @@ Created Boychongzen aka Xroot
    sni: BugHost.com
    interface-name: eth1	  
 
-- name: IDN
+---------------------------------------------
+
+---------------------------------------------
+
+- name: trojan-biasa
   type: trojan
   server: xxxxxxxxxxxxxxxxxx
   port: 443
@@ -24,25 +28,8 @@ Created Boychongzen aka Xroot
   sni: xxxxxxxxxxxxxxxxxx
   skip-cert-verify: true
   unified-delay: true
-  interface-name: eth1/wwan0/usb0
----------------------------------------------
-- name: GRPC-IDN
-  type: vmess
-  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  port: 443
-  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true 
-  unified-delay: true
-  interface-name: eth1/wwan0/usb0
-  tls: true
-  servername: BugHost.com
-  network: grpc
-  grpc-opts:      
-    grpc-service-name: grpc
----------------------------------------------
+  interface-name: eth1
+
 - name: Trojan-WS
   type: trojan
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -127,22 +114,22 @@ Created Boychongzen aka Xroot
   ws-headers:
     Host: bughost.com
     
- - name: Vmees-GRPC
+- name: Vmess-GRPC
   type: vmess
-  server: xxxxxxxxxxxxxxxxxxxxxx
-  port: 8443
-  uuid: isi uuid
+  server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   alterId: 0
   cipher: auto
   udp: true
-  skip-cert-verify: true
+  skip-cert-verify: true 
   unified-delay: true
-  interface-name: eth1/wwan0/usb0
-  tls: true
-  servername: bughost
+    tls: true
+  servername: BugHost.com
   network: grpc
-  grpc-opts:
-    grpc-service-name: v2ray-vmess-grpc  
+  grpc-opts:      
+    grpc-service-name: grpc
+  interface-name: eth1  
     
  
   - name: Edukasi ( Tsel ,XL Axis & Im3 )
