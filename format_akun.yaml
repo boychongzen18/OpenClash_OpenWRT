@@ -96,29 +96,18 @@ Created Boychongzen aka Xroot
      headers:
        Host: BugHost.com      
  ---------------------------------------------  
- - name: SHADOWSOCKS-TLS
+- name: Shadowscok-TLS
   type: ss
-  server: xxxxxxxxxxxxxxxxx
+  server: xxxxxxxxxxxxx
   port: xxxxxxxxxxxxxxxx
-  cipher: aes-256-cfb
-  password: xxxxxxxxxxxxxxxxx
+  cipher: chacha20-ietf-poly1305
+  password: xxxxxxxxxxxxxxx
   udp: true
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: BugHost
-  interface-name: eth1   
-  
-- name: SHADOWSOCKS-R
-  type: ssr
-  server: xxxxxxxxxxxxxxxxx
-  port: xxxxxxxxxxxxxxxxx
-  cipher: aes-256-cfb
-  password: xxxxxxxxxxxxxxxxx
-  obfs: tls1.2_ticket_auth
-  protocol: auth_sha1_v4
-  obfs-param: obfs=tls;obfs-host=bug.com
-  udp: true
+    host: Bughost
+  interface-name: eth1  
 ---------------------------------------------    
 - name: VMESS-WS
   type: vmess
@@ -174,6 +163,23 @@ Created Boychongzen aka Xroot
     interface-name: eth1   
  
 ---------------------------------------------  
+ - name: VLESS-WS
+  type: vless
+  server: xxxxxxxxxxxxxxxxx
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxx
+  alterId: 32
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: XXXXXXXXXXXXXXXXXXX
+  network: ws
+  ws-path: /xxxxxxxxxxxxxxxxx/
+  ws-headers:
+    Host: BugHost.com
+  interface-name: eth1    
+---------------------------------------------  
 - name: Akun_Sock5
   type: socks5
   server: xxxxxxxxxxxxxxxxx
@@ -184,6 +190,6 @@ Created Boychongzen aka Xroot
   skip-cert-verify: true
   tls: true
   sni: BugHost
-  interface-name: eth1
+  interface-name: eth1  
  
 
