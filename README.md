@@ -19,6 +19,10 @@
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_premi.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/core_meta.jpg)
 
+# Speedtest Single & LoadBalnce
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/orbit.jpg)
+![be](https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/lb.jpg)
+
 # Clash For Android
 ![be](https://raw.githubusercontent.com/boychongzen18/Clash-OpenWRT/main/clash_adroid.jpg)
 
