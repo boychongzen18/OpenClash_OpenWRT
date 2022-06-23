@@ -95,7 +95,21 @@ Created Boychongzen aka Xroot
   ws-opts:
     path: /trojango
     headers:
-        Host: akun     
+        Host: akun  
+  
+- name: TROJAN GO
+  server: akun
+  port: 443
+  type: trojan
+  password: xxxxxxxxxxxxxxxxxxxxx
+  network: ws
+  sni: bughost
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojango
+    headers:
+        Host: bughost
  ---------------------------------------------  
 - name: Shadowscok-TLS
   type: ss
