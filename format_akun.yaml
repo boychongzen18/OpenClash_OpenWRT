@@ -176,6 +176,21 @@ Created Boychongzen aka Xroot
       headers:
         Host: xxxxxxxxxxxxxxxxxxxxxxxx
     interface-name: eth1   
+    
+- name: Mode Jungkir Balik
+  type: vmess
+  server: IP / Bughost
+  port: 80
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: /v2ray    
+    
  
 ---------------------------------------------  
  - name: VLESS-WS
