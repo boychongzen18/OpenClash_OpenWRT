@@ -1,7 +1,7 @@
 proxies:
-- name: OPOK-VMESS
+- name: VMESS
   type: vmess
-  server: IP OPOK
+  server: IP_PROXY
   port: 443
   uuid: xxxxxxxxxxxxxxxxxxxxxx
   alterId: 0
@@ -12,12 +12,12 @@ proxies:
   servername: bughost.com
   network: ws
   ws-opts:
-    path: ws://bughost.com/trojan
+    path: ws://bughost.com/vmess
     headers:
       Host: Akun_Vmees
-- name: OPOK-TJ
+- name: TROJAN
   type: trojan
-  server: IP OPOK
+  server: IP_PROXY
   port: 443
   password: xxxxxxxxxxxxxxxxxxxxxx
   udp: true
@@ -28,3 +28,7 @@ proxies:
     path: ws://bughost.com/trojan
     headers:
       Host: Akun_TJ	  
+      
+      
+      
+ NB : Format Akun Terbaru 2022 Sudah Ready All Paket OPSEL     
