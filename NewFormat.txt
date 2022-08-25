@@ -1,0 +1,30 @@
+proxies:
+- name: OPOK-VMESS
+  type: vmess
+  server: IP OPOK
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bughost.com
+  network: ws
+  ws-opts:
+    path: ws://bughost.com/trojan
+    headers:
+      Host: Akun_Vmees
+- name: OPOK-TJ
+  type: trojan
+  server: IP OPOK
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: bughost.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ws://bughost.com/trojan
+    headers:
+      Host: Akun_TJ	  
