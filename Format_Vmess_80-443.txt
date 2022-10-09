@@ -39,4 +39,12 @@ proxies:
   cd/etc/openclash/proxy_provider/vmess.yaml
   
   
+  Akun Free Vmess Port 80/443 
+  
+  https://www.fastssh.com/page/v2ray-servers
+  
+  
+  My WA :  wa.me/6281230199377
+  
+  
   
