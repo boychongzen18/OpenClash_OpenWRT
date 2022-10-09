@@ -31,3 +31,12 @@ proxies:
     path: ws://Bughost.com/fastssh/akrab04/6342a43c2be1a/
     headers:
       Host: akun.com
+      
+      
+      
+  Cara Pasang di Config Openclash
+  
+  cd/etc/openclash/proxy_provider/vmess.yaml
+  
+  
+  
