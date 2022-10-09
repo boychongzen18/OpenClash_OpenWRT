@@ -1,0 +1,33 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: Port_80
+  type: vmess
+  server: Bughost.com
+  port: 80
+  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: /fastssh/akrab04/6342a43c2be1a/
+    headers:
+      Host: akun.com
+- name: Port_443_WS
+  type: vmess
+  server: IP_Bughost
+  port: 443
+  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: Bughost.com
+  network: ws
+  ws-opts:
+    path: ws://Bughost.com/fastssh/akrab04/6342a43c2be1a/
+    headers:
+      Host: akun.com
