@@ -1,20 +1,4 @@
 proxies:
-- name: VMESS
-  type: vmess
-  server: IP_PROXY
-  port: 443
-  uuid: xxxxxxxxxxxxxxxxxxxxxx
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: bughost.com
-  network: ws
-  ws-opts:
-    path: ws://bughost.com/vmess
-    headers:
-      Host: Akun_Vmees
 - name: TROJAN
   type: trojan
   server: IP_PROXY
@@ -28,6 +12,23 @@ proxies:
     path: ws://bughost.com/trojan
     headers:
       Host: Akun_TJ	  
+- name: VMESS
+  type: vmess
+  server: bughost/ip
+  port: 443
+  uuid: dce4c472-6f3f-4c45-80e5-xxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bughost
+  network: ws
+  ws-opts:
+    path: wss://bughost/fastssh/freenetoc/6358a02c3a7bb/
+    headers:
+      Host: akun.v2-ray.com      
+      
       
       
       
