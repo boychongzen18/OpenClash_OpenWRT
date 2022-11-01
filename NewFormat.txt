@@ -37,12 +37,12 @@ proxies:
   tls: false
   udp: true
   skip-cert-verify: true
-  servername: api.myorbit.id
+  servername: bughost
   network: ws
   ws-opts:
     path: /kuota-habis
     headers:
-      Host: api.myorbit.id      
+      Host: bughost      
       
       
       
