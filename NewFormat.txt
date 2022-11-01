@@ -27,7 +27,22 @@ proxies:
   ws-opts:
     path: wss://bughost/fastssh/freenetoc/6358a02c3a7bb/
     headers:
-      Host: akun.v2-ray.com      
+      Host: akun.v2-ray.com 
+- name: ORBIT OPOK
+  type: vless
+  server: akun vless
+  port: 80
+  uuid: c08b79b7-9ce4-424e-a0b5xxxxxxxxxxxxxxxx
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: api.myorbit.id
+  network: ws
+  ws-opts:
+    path: /kuota-habis
+    headers:
+      Host: api.myorbit.id      
       
       
       
