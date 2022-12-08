@@ -1,0 +1,35 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: TROJAN TKP ONLY
+  type: trojan
+  server: akun-trojan.com
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: bughost.com 
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: bughost.com
+- name: VLESS TKP LUAR
+  type: vless
+  server: bughost.com
+  port: 443
+  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun-vless.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: akun-vless.com
+	  
+	  
+	  
+NB : Sudah di Uji SNI All Config Openclash
+
+Minat Config Premium Bisa Langsung Kesini wa.me/6281230199377  
