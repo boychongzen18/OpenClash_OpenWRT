@@ -1,0 +1,47 @@
+==========================================================
+FORMAT NEW CORE META DESEMBER 2022
+==========================================================
+
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: TROJAN_WSS
+  server: bughost.com
+  port: 443
+  type: trojan
+  password: c3c4be3e-47d7-4c86-xxxxxxxx
+  network: ws
+  sni: bughost.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: BOYCHONGZEN-:wss://bughost.com/trojan
+    headers:
+        Host: boychongzen.barokahnet.my.id
+- name: VLESS_WSS
+  type: vless
+  server: bughost.com
+  port: 443
+  uuid: 1d45b384-44c2-457d-8d07-xxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bughost.com
+  network: ws
+  ws-opts:
+    path: BOYCHONGZEN-:wss://bughost.com/vless
+    headers:
+      Host: boychongzen.barokahnet.my.id
+
+
+JANGAN LUPA UPLOAD core_meta
+
+Download File : https://github.com/boychongzen18/Clash_End_OpenClash_OpenWRT/blob/main/meta_ws_baru.zip
+
+Caranya : Masuk Luci > Config Manage > Upload File Type > Meta Core File > Upload
+
+
+NB : Cara Rubah Config : log-level: silent ke debug
+
+
+Jasa Setting langsung kesini wa.me/6281335753337
+
