@@ -31,6 +31,36 @@ proxies:
     path: ws://Bughost.com/fastssh/akrab04/6342a43c2be1a/
     headers:
       Host: akun.com
+ - name: OPOK DO
+  type: vless
+  server: bughost.com
+  port: 443
+  uuid: 13d7cf6f-3908-414d-9999-cvxxxxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bughost.com
+  network: ws
+  ws-opts:
+    path: CONNECT-:wss://bughost.com/vless
+    headers:
+      Host: injek.barokahnet.my.id
+- name: TESTER OPOK
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: ad241640-7d45-11ed-b335-cxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: GET-:ws://bughost.com/vmess
+    headers:
+      Host: injek.barokahnet.my.id     
+      
       
       
       
@@ -44,7 +74,7 @@ proxies:
   https://www.fastssh.com/page/v2ray-servers
   
   
-  My WA :  wa.me/6281230199377
+  My WA :  langsung kesini wa.me/6281335753337
   
   
   
