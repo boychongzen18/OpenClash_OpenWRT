@@ -1,3 +1,4 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
 proxies:
 - name: TROJAN
   type: trojan
