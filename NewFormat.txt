@@ -42,7 +42,22 @@ proxies:
   ws-opts:
     path: /kuota-habis
     headers:
-      Host: bughost      
+      Host: bughost  
+- name: VMESS OPOK
+  type: vmess
+  server: injek.barokahnet.my.id
+  port: 80
+  uuid: 03078179-4124-4020-8fexxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: /WORRYFREE
+    headers:
+      Host: TSEL.ME      
       
       
       
