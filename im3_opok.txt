@@ -1,6 +1,17 @@
-vmess://eyJhZGQiOiJsaXZlLmJhcm9rYWhuZXQubXkuaWQiLCJhaWQiOiIwIiwiaG9zdCI6ImluamVrLmJhcm9rYWhuZXQubXkuaWQiLCJpZCI6IjZjYTFjZTY0LWZkOGEtNDNmOS1hZGVkLWQ1MDNlNjhjNjkyMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9mcmVlbmV0IiwicG9ydCI6IjgwIiwicHMiOiJPcG9rIElNMyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJpbTMuYm95Y2hvbmd6ZW4ub25saW5lIiwiYWlkIjoiMCIsImhvc3QiOiJpbmplay5iYXJva2FobmV0Lm15LmlkIiwiaWQiOiI2Y2ExY2U2NC1mZDhhLTQzZjktYWRlZC1kNTAzZTY4YzY5MjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZnJlZW5ldCIsInBvcnQiOiI4MCIsInBzIjoiT3BvayBJTTMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 
 
+
+
+
+
+Khusus Opsel IM3 
+
+Sudah di Tester di Andoid & OpenWRT
+
+Sunek Modem Pesawat
 
 
 NB : Copas Akun di Atas di APK V2rayNG/GatchangNG
+
+Regards Boychongzen aka Xroot
