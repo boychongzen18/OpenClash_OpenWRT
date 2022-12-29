@@ -7,7 +7,7 @@ vmess://eyJhZGQiOiJpbTMuYm95Y2hvbmd6ZW4ub25saW5lIiwiYWlkIjoiMCIsImhvc3QiOiJpbmpl
 
 Khusus Opsel IM3 
 
-Sudah di Tester di Andoid & OpenWRT
+Sudah di Tester di Android & OpenWRT
 
 Sunek Modem Pesawat
 
