@@ -1,0 +1,116 @@
+mode: rule
+allow-lan: true
+unified-delay: true
+bind-address: '*'
+log-level: silent
+ipv6: false
+geodata-mode: true
+external-controller: 0.0.0.0:9090
+external-ui: dashboard/dist
+tcp-concurrent: true
+interface-name: ""
+enable-process: false
+geodata-loader: memconservative
+secret: ""
+sniffer:
+  enable: false
+  sniffing:
+    - tls
+    - http
+  force-domain:
+    - '+'
+  skip-domain:
+    - 'google.com'
+  port-whitelist:
+    - 80
+    - 443
+    - 8000-9000
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  device: Meta
+  ipv6: false
+  default-nameserver: 
+    - 8.8.8.8
+    - 1.1.1.1
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['networktest.twilio.com', '+.twilio.com']
+  nameserver:
+    - 1.1.1.1
+    # 104.18.20.94 
+  proxy-server-nameserver:
+    - 1.1.1.1
+    # 104.18.21.94 
+  fallback: []
+  fallback-filter:
+    geoip: false
+    geoip-code: 'ID'
+    geosite:
+      - GFW
+      - GREATFIRE
+    domain: ['google.com']
+    ipcidr: [240.0.0.0/4]
+tun:
+  enable: false
+  device: Meta
+  stack: gvisor
+  dns-hijack:
+    - 'any:53'
+    - 'tcp://any:53'
+  auto-route: false
+  auto-detect-interface: false
+iptables: {enable: false, inbound-interface: "", bypass: []}
+hosts:
+  'akrab.boychongzen.online': 104.18.24.139
+  'akrab.boychongzen.my.id': 104.18.25.139
+geox-url:
+  mmdb: "https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb"
+  geoip: "https://github.com/v2fly/geoip/raw/release/geoip-only-cn-private.dat"
+  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/release/geosite.dat"
+tproxy-port: 9898
+proxies:
+  - name: TROJAN
+    server: akrab.boychongzen.my.id
+    port: 443
+    type: trojan
+    password: xroot
+    sni: do.barokahnet.my.id
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: do.barokahnet.my.id
+    udp: true
+    mux: true
+  - name: VMESS
+    type: vmess
+    server: akrab.boychongzen.online
+    port: 443
+    uuid: da68083a-1b79-4079-b712-fb0453a03ce9
+    alterId: 0
+    cipher: auto
+    udp: false
+    skip-cert-verify: true
+    tls: true
+    servername: zakysg.dklongtong.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: zakysg.dklongtong.xyz 
+proxy-groups:
+  - name: Akrab Unlimited
+    type: load-balance
+    proxies:
+      - TROJAN
+      - VMESS
+rules:
+  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  - MATCH,Akrab Unlimited
