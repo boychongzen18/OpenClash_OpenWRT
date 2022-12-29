@@ -1,0 +1,17 @@
+vmess://eyJhZGQiOiJpbmplay5iYXJva2FobmV0Lm15LmlkIiwiYWlkIjoiMCIsImhvc3QiOiJ0c2VsLm1lIiwiaWQiOiI2Y2ExY2U2NC1mZDhhLTQzZjktYWRlZC1kNTAzZTY4YzY5MjIiLCJuZXQiOiJ3cyIsInBhdGgiOiJodHRwOi8vdHNlbC5tZS93b3JyeWZyZWUiLCJwb3J0IjoiODAiLCJwcyI6Im9wb2siLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+
+
+
+
+
+
+Khusus Opsel Orbit & Tsel Biasa
+
+Sudah di Tester di Android & OpenWRT
+
+Sunek Modem Pesawat
+
+
+NB : Copas Akun di Atas di APK V2rayNG/GatchangNG
+
+Regards Boychongzen aka Xroot
