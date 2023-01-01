@@ -10,7 +10,9 @@ vmess://eyJhZGQiOiJzcG90aWZ5LmJveWNob25nemVuLm15LmlkIiwiYWlkIjoiMCIsImhvc3QiOiJp
 
 Khusus Opsel XL Axiata
 
-Sawer Spotif Unlimited
+Link Paket Spotif Unlimited
+
+https://raw.githubusercontent.com/boychongzen18/Clash_End_OpenClash_OpenWRT/main/spotif.jpg
 
 Sudah di Tester di Android & OpenWRT
 
