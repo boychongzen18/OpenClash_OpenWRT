@@ -1,0 +1,47 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: PATH PAJANG
+  type: trojan
+  server: akun.barokahnet.my.id
+  port: 443
+  password: Boychongzen
+  udp: true
+  sni: bughost.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: wss://bughost.com/trojan
+    headers:
+      Host: bughost.com
+- name: PATH PENDEK
+  type: vless
+  server: akun.barokahnet.my.id
+  port: 443
+  uuid: 0180c989-4372-4225-xxxx-xchdgskjabhyd
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: multi bughost 
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: multi bughost
+	  
+	  
+	  
+	  
+NB : Format Akun Terbaru 2023 Sudah Ready All Paket OPSEL 
+     TKP Wajib Support Paket2nya Gk Konek Bukan Tanggung Jawab Saya    
+ 
+Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
+ 
+Sudah di Tester di OPSEL : XL,INDOSAT,TELKOMSEL dll
+ 
+
+Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
+
+My Facebok : https://web.facebook.com/xroot.xroot.7
+ 
+ 
+Regards Boychongzen aka Xroot	  
