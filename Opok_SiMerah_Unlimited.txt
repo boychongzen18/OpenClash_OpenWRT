@@ -6,7 +6,7 @@ vmess://eyJhZGQiOiJvcG9rLmJveWNob25nemVuLm9ubGluZSIsImFpZCI6IjAiLCJob3N0IjoiVFNF
 
 
 
-Khusus Tsel Biasa ( Unlimited )
+Khusus Tsel Biasa ( Lolos Limit 500embe )
 
 Sudah di Tester di Android & OpenWRT
 
@@ -15,7 +15,7 @@ Sunek Mode Pesawat Terbang
 
 NB : TKP Wajib Support Opok & Khusus Unlimited ada Caranya
 
-     Mau Opok Unlimited Wajib Jaga Pulsa Aktif
+     Mau Opok Lolos Limit Wajib Jaga Pulsa Aktif
 
      Copas Akun di Atas di APK V2rayNG/GatchangNG
 	 
