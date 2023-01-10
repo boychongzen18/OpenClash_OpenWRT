@@ -6,7 +6,7 @@ vmess://eyJhZGQiOiJvcG9rLmJveWNob25nemVuLm9ubGluZSIsImFpZCI6IjAiLCJob3N0IjoiVFNF
 
 
 
-Khusus Tsel Biasa ( Lolos Limit 500embe )
+Khusus Tsel Biasa ( Lolos Limit 500ember )
 
 Sudah di Tester di Android & OpenWRT
 
@@ -18,6 +18,15 @@ NB : TKP Wajib Support Opok & Khusus Unlimited ada Caranya
      Mau Opok Lolos Limit Wajib Jaga Pulsa Aktif
 
      Copas Akun di Atas di APK V2rayNG/GatchangNG
+     
+     
+ Bisa Pesan Config Opok di Link bawah   
+ 
+ Shopee
+ https://shp.ee/pfjubye
+ 
+ Facebook
+ https://www.facebook.com/xroot.xroot.7
 	 
 	 
 
