@@ -1,6 +1,6 @@
 # RAKITAN CONFIG Boychongzen aka Xroot
 proxies:
-- name: PATH PAJANG
+- name: PATH PANJANG
   type: trojan
   server: akun.barokahnet.my.id
   port: 443
