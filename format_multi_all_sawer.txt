@@ -29,7 +29,12 @@ proxies:
       Host: akun-vless.com
 	  
 	  
- NB : Format Akun Terbaru 2022 Sudah Ready All Paket OPSEL     
+ NB : Format Akun Terbaru 2022 Sudah Ready All Paket OPSEL   
+ 
+ 
+ CARA UPLOAD CONFIG OPENCLASH
+
+https://drive.google.com/file/d/1ESXGA80EIgh_MOWXokzltiYWmcPm7anu/view
  
  Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
  
