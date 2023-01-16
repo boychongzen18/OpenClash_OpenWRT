@@ -1,8 +1,44 @@
+FORMAT HP Android
+=======================================================================================================================================================================
 vmess://eyJhZGQiOiJvcG9rLmJveWNob25nemVuLm9ubGluZSIsImFpZCI6IjAiLCJob3N0IjoiVFNFTC5NRS9MT0tBTCIsImlkIjoiNGE2ZmNmNDQtNDRjNy00N2E5LTk0YWRjYWhha2FmYXlhamJhY2NhYiIsIm5ldCI6IndzIiwicGF0aCI6Ii9XT1JSWUZSRUUiLCJwb3J0IjoiODA4MCIsInBzIjoiT3BvayBVbmxpbWl0ZWQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+=======================================================================================================================================================================
 
-
-
-
+=======================================================================================================================================================================
+FORMAT OPENCLASH 2 MULTI 
+=======================================================================================================================================================================
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: ORBIT OPOK
+  type: vmess
+  server: akun.barokahnet.my.id
+  port: 80
+  uuid: 4a6fcf44-44c7-47a9-xxxxxxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
+- name: TSEL OPOK
+  type: vmess
+  server: akun.barokahnet.my.id
+  port: 8080
+  uuid: 4a6fcf44-44c7-47a9-xxxxxxxxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me/worryfree	  
+ =======================================================================================================================================================================     
 
 
 
