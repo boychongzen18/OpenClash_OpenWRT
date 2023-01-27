@@ -1,0 +1,51 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# =======================================
+- name: POINTING ATAS
+  type: trojan
+  server: akrab-atas.boychongzen.my.id 
+  port: 443
+  password: xxxxxxxxxxxxxxx
+  udp: true
+  sni: sg.boychongzen.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.boychongzen.my.id
+# =======================================
+- name: POINTING BAWAH
+  type: trojan
+  server: indo.boychongzen.my.id
+  port: 443
+  password: xxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: akrab-bawah.boychongzen.online
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: akrab-bawah.boychongzen.online
+# ========================================
+
+
+
+
+
+NB : Format Akun Terbaru 2023 
+     OPSEL XL Axiata & Saweran Akrab    
+ 
+ 
+Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
+ 
+
+ 
+
+Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
+
+My Facebok : https://web.facebook.com/xroot.xroot.7
+ 
+ 
+Regards Boychongzen aka Xroot
