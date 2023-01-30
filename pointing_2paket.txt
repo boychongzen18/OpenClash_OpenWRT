@@ -1,0 +1,51 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ===============================================================================================
+- name: POINTING AKRAB
+  type: trojan
+  server: akrab-atas.boychongzen.my.id 
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: indo.boychongzen.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: indo.boychongzen.my.id
+# ===============================================================================================
+- name: POINTING SPOTIF
+  type: trojan
+  server: spotify.boychongzen.my.id 
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: indo.boychongzen.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: indo.boychongzen.my.id
+# ===============================================================================================
+
+
+
+
+
+NB : Format Akun Terbaru 2023 
+     OPSEL XL Axiata  Saweran Akrab & Spotify    
+ 
+ 
+Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
+
+ 
+
+Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
+
+My Facebok : https://web.facebook.com/xroot.xroot.7
+ 
+ 
+ 
+Regards Boychongzen aka Xroot
