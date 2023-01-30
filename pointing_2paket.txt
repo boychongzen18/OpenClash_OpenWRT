@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: indo.boychongzen.my.id
 # ===============================================================================================
-- name: POINTING SPOTIF
+- name: POINTING SPOTIFY
   type: trojan
   server: spotify.boychongzen.my.id 
   port: 443
