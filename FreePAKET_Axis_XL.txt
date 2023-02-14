@@ -1,0 +1,52 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+- name: AXIS FreeNET
+  type: vless
+  server: opera.barokahnet.my.id
+  port: 443
+  uuid: 13d7cf6f-3908-414d-9999-cvxxxxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: akun.barokahnet.my.id
+- name: XL FreeNET
+  type: vmess
+  server: opera.boychongzen.online
+  port: 80
+  uuid: ad241640-7d45-11ed-b335-cxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+	  
+	  
+ NB : Format Akun Terbaru 2023  Free Paket
+
+      Dial Paketnya : *123*363*3*1# 
+ 
+Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
+ 
+Sudah di Tester di OPSEL : XL,AXIS
+
+Sudah di Tester di Android & OpenWRT
+
+
+Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
+
+My Facebok : https://web.facebook.com/xroot.xroot.7
+ 
+ 
+Regards Boychongzen aka Xroot	  
+	  
+	  
