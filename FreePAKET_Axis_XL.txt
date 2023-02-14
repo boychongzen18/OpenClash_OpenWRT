@@ -31,16 +31,17 @@ proxies:
       Host: akun.barokahnet.my.id
 	  
 	  
- NB : Format Akun Terbaru 2023  Free Paket
+ NB : Format Akun Terbaru 2023
 
       Dial Paketnya : *123*363*3*1# 
       Main Unreg Khusus Spam Paketnya
  
-Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
- 
+
 Sudah di Tester di OPSEL : XL,AXIS
 
 Sudah di Tester di Android & OpenWRT
+
+Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
 
 
 Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
