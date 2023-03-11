@@ -1,0 +1,96 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ==================================
+# ##->  RAKITAN BugHost VIXION  <-##
+# ==================================
+- name: 443 Unlimited
+  type: vless
+  server: BugHost / IPV4
+  port: 443
+  uuid: 309ed66a-704d-4f9f-xxxx-xxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: akun.barokahnet.my.id
+# =====================================
+- name: 80 Unlimited
+  type: vless
+  server: BugHost / IPV4
+  port: 443
+  uuid: 309ed66a-704d-4f9f-xxxxxxx-exxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: akun.barokahnet.my.id
+# =====================================
+- name: 443 Unlimited
+  type: vmess
+  server: BugHost / IPV4
+  port: 443
+  uuid: 9cc6988b-388f-4adc-xxxxx-xxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+# =====================================
+- name: 80 Unlimited
+  type: vmess
+  server: BugHost / IPV4
+  port: 80
+  uuid: 9cc6988b-388f-xxxxxxxxxxx-xxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+# =====================================
+- name: TROJAN WS-GO Unlimited
+  type: trojan
+  server: BugHost / IPV4
+  port: 443
+  password: xxxxxxxxxxxxxxxxxxxxxxx
+  udp: true
+  sni: akun.barokahnet.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: akun.barokahnet.my.id
+# =====================================
+
+
+ NB : Format Akun Terbaru 2023 Sudah Ready All Paket OPSEL     
+ 
+ Bisa Pesan Config Siap Pakai & Donasi Khusus Config Tools Openclash
+ 
+ Sudah di Tester di OPSEL : XL,INDOSAT,TELKOMSEL dll
+ 
+
+Minat Config Premium Bisa Langsung Kesini https://shp.ee/2ssn4pu
+
+My Facebok : https://web.facebook.com/xroot.xroot.7
+ 
+ 
+Regards Boychongzen aka Xroot
