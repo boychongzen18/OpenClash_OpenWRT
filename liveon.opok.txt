@@ -79,7 +79,22 @@ proxies:
     headers:
       Host: akun.barokahnet.my.id
 # =====================================
-
+- name: VMESS OPOK
+  type: vmess
+  server: injek.barokahnet.my.id
+  port: 80
+  uuid: 03078179-4124-4020-8fexxxxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: /unlimited
+    headers:
+      Host: opok_liveon.boychongzen.online
+# ============================================
 
  NB : Format Akun Terbaru 2023 Sudah Ready All Paket OPSEL     
  
