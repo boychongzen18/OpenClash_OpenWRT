@@ -79,9 +79,9 @@ proxies:
     headers:
       Host: akun.barokahnet.my.id
 # =====================================
-- name: VMESS OPOK
+- name: VMESS OPOK UNLIMITED
   type: vmess
-  server: injek.barokahnet.my.id
+  server: akun.barokahnet.my.id
   port: 80
   uuid: 03078179-4124-4020-8fexxxxxxxxxxxxxxxxxxxx
   alterId: 0
