@@ -40,7 +40,7 @@ proxies:
   uuid: 9cc6988b-388f-4adc-xxxxx-xxxxxx
   alterId: 0
   cipher: auto
-  udp: false
+  udp: true
   skip-cert-verify: true
   tls: true
   network: ws
@@ -56,7 +56,7 @@ proxies:
   uuid: 9cc6988b-388f-xxxxxxxxxxx-xxx
   alterId: 0
   cipher: auto
-  udp: false
+  udp: true
   skip-cert-verify: true
   tls: false
   network: ws
