@@ -95,6 +95,23 @@ proxies:
     headers:
       Host: opok_liveon.boychongzen.online
 # ============================================
+- name: TJ FORMAT
+  type: trojan
+  server: IP / BUGHOST
+  port: 443
+  password: XXXXXXXXXXXXXXXXXX
+  udp: true
+  sni: akun.barokahnet.my.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+# ============================================
+
+
+
 
  NB : Format Akun Terbaru 2023 Sudah Ready All Paket OPSEL     
  
