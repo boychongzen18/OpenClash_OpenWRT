@@ -9,7 +9,7 @@ edit config ymal di Folder
  etc/openclash/proxy_provider
 
 
-
+ # ============================================
 proxies:
 - name: Trojan-Go
   type: trojan
@@ -28,6 +28,21 @@ proxies:
      headers:
        Host: bughost.com  
   interface-name: eth1
+ # ============================================
+ - name: TJ FORMAT
+  type: trojan
+  server: IP / BUGHOST
+  port: 443
+  password: XXXXXXXXXXXXXXXXXX
+  udp: true
+  sni: akun.barokahnet.my.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+# ============================================
   
   
   
