@@ -1,5 +1,18 @@
 # RAKITAN CONFIG Boychongzen aka Xroot
 proxies:
+- name: TJ FORMAT
+  type: trojan
+  server: IP / BUGHOST
+  port: 443
+  password: 30
+  udp: true
+  sni: akun.barokahnet.my.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
 - name: TROJAN
   type: trojan
   server: IP_PROXY
