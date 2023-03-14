@@ -6,7 +6,7 @@ Sudah di Tester Openclash
 Config Openclash 
 
 
-
+# ============================================ 
 - name: Trojan-GO
   type: trojan
   server: Akun / Bughost
@@ -24,6 +24,21 @@ Config Openclash
      headers:
        Host: Bughost / Akun
   interface-name: eth1
+# ============================================  
+- name: NEW FORMAT
+  type: trojan
+  server: IP / BUGHOST
+  port: 443
+  password: xxxxxxxxxxxxxxxxx
+  udp: true
+  sni: akun.barokahnet.my.id
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+# ============================================
   
   
   
