@@ -79,6 +79,23 @@ proxies:
     headers:
       Host: akun.barokahnet.my.id
 # =====================================
+- name: NEW FORMAT
+  type: trojan
+  server: IP / BUGHOST
+  port: 443
+  password: xxxxxxxxxxxxxxxxx
+  udp: true
+  sni: akun.barokahnet.my.id
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+# ============================================
+
+
+
 
 
  NB : Format Akun Terbaru 2023 Sudah Ready All Paket OPSEL     
