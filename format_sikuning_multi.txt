@@ -1,0 +1,77 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# =========================================
+# ##-> RAKITAN BugHost Opok Sikuning < -##
+# =========================================
+- name: INDO OPOK IM3
+  type: trojan
+  server: sikuning.boychongzen.online
+  port: 443
+  password: boychongzen
+  udp: true
+  sni: akun.barokahnet.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: akun.barokahnet.my.id
+#==================================
+- name: RACKH OPOK IM3
+  type: vless
+  server: sikuning.boychongzen.online
+  port: 443
+  uuid: 309ed66a-704d-4f9f-b23e-xxxxxxxxxx
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: akun.barokahnet.my.id
+#==========================================
+- name: RACKH OPOK
+  type: vmess
+  server: opok_isat.barokahnet.my.id
+  port: 80
+  uuid: 57de3263-94ae-4fd8-b84axxpxax
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+# ===========================================
+
+
+
+NB : TKP Wajib Support OPOK
+     
+     
+ Bisa Pesan Config Opok di Link bawah   
+ 
+ Shopee
+ https://shp.ee/pfjubye
+ 
+ Facebook
+ https://www.facebook.com/xroot.xroot.7
+ 
+ 
+ Minat Config Premium Bisa Langsung Kesini wa.me/6281335753337
+ 
+ 
+ CARA UPLOAD CONFIG OPENCLASH
+
+https://drive.google.com/file/d/1ESXGA80EIgh_MOWXokzltiYWmcPm7anu/view
+	 
+	 
+
+Regards Boychongzen aka Xroot
+
+
