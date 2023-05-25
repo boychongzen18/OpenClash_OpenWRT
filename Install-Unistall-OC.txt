@@ -1,0 +1,20 @@
+
+Cara Hapus Semua File OpenClash di Terminal
+-----------------------------------------------------
+Terminal :
+opkg update
+opkg remove luci-app-openclash
+rm -rf /tmp/luci*
+rm -rf /usr/lib/lua/luci/model/cbi/openclash
+rm -rf /usr/lib/lua/luci/view/openclash
+rm -rf /www/luci-static/resources/openclash
+
+
+Cara Install IPK
+-------------------------------------------------
+1. Upload file .ipk dI Folder /root
+2. Terminal :
+cd
+ls
+opkg install *.ipk
+rm -rf /tmp/luci*
