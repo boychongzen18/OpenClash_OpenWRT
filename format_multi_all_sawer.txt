@@ -1,32 +1,54 @@
 # RAKITAN CONFIG Boychongzen aka Xroot
 proxies:
-- name: TROJAN TKP ONLY
+# ===============================================
+##-> RAKITAN BugHost AKRAB ANTI MALAK KUOTA  <-##
+# ===============================================
+- name: INDO1
   type: trojan
-  server: akun-trojan.com
+  server: bughost.com
   port: 443
-  password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  password: 3678d1d4-adc4-4e89-bd65xxxxxxxxxnxb
   udp: true
-  sni: bughost.com 
+  sni: indo.barokahnet.my.id
+  alpn:
+  - http/1.1
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
-    headers:
-      Host: bughost.com
-- name: VLESS TKP LUAR
+# ==============================================
+- name: INDO2
   type: vless
   server: bughost.com
   port: 443
-  uuid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  uuid: 9a805561-cd77-4df0-8044bd65xxxxxxxxxnxb
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: akun-vless.com
+  servername: indo.barokahnet.my.id
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: akun-vless.com
+      Host: indo.barokahnet.my.id
+# ==============================================
+- name: INDO3
+  type: vmess
+  server: bughost.com
+  port: 443
+  uuid: 9a805561-cd77-4df0-804vccxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: indo.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+# ==============================================
 	  
 	  
  NB : Format Akun Terbaru 2022 Sudah Ready All Paket OPSEL   
