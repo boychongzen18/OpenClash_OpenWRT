@@ -49,6 +49,25 @@ proxies:
     headers:
       Host: indo.barokahnet.my.id
 # ==============================================
+- name: INDO4
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: 6d00faf1-cd0c-4120-bc2f-CCCNSBXXZX
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: indo.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+  # ==============================================    
+
+
 	  
 	  
  NB : Format Akun Terbaru 2022 Sudah Ready All Paket OPSEL   
