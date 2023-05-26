@@ -17,8 +17,6 @@ Created Boychongzen aka Xroot
 
 ---------------------------------------------
 
----------------------------------------------
-
 - name: trojan-biasa
   type: trojan
   server: xxxxxxxxxxxxxxxxxx
@@ -29,6 +27,7 @@ Created Boychongzen aka Xroot
   skip-cert-verify: true
   unified-delay: true
   interface-name: eth1
+ ---------------------------------------------
 
 - name: Trojan-WS
   type: trojan
@@ -46,7 +45,7 @@ Created Boychongzen aka Xroot
      path: /fastssh
      headers:
        Host: BugHost.com
-
+---------------------------------------------
 - name: Trojan-Go
   type: trojan
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -64,7 +63,7 @@ Created Boychongzen aka Xroot
      path: /howdy
      headers:
        Host: BugHost.com
-       
+---------------------------------------------       
  - name: Trojan-GFW
   type: trojan
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -82,7 +81,7 @@ Created Boychongzen aka Xroot
      path: /fastssh
      headers:
        Host: BugHost.com    
-       
+---------------------------------------------       
 - name: TROJAN GO Mode Salto
   server: isi bughost/ip
   port: 443
@@ -96,7 +95,7 @@ Created Boychongzen aka Xroot
     path: /trojango
     headers:
         Host: akun  
-  
+---------------------------------------------  
 - name: TROJAN GO
   server: akun
   port: 443
@@ -141,7 +140,7 @@ Created Boychongzen aka Xroot
   ws-path: XXXXXXXXXXXXXXX
   ws-headers:
     Host: bughost.com
-    
+---------------------------------------------    
 - name: Vmess-GRPC
   type: vmess
   server: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -158,7 +157,7 @@ Created Boychongzen aka Xroot
   grpc-opts:      
     grpc-service-name: grpc
   interface-name: eth1  
-    
+ ---------------------------------------------   
  
   - name: Edukasi ( Tsel ,XL Axis & Im3 )
     type: vmess
@@ -176,7 +175,7 @@ Created Boychongzen aka Xroot
       headers:
         Host: xxxxxxxxxxxxxxxxxxxxxxxx
     interface-name: eth1   
-    
+---------------------------------------------    
 - name: Mode Jungkir Balik
   type: vmess
   server: IP / Bughost
@@ -189,8 +188,7 @@ Created Boychongzen aka Xroot
   tls: false
   network: ws
   ws-opts:
-    path: /v2ray    
-    
+    path: /v2ray     
  
 ---------------------------------------------  
  - name: VLESS-WS
@@ -221,6 +219,85 @@ Created Boychongzen aka Xroot
   tls: true
   sni: BugHost
   interface-name: eth1  
+  - name: INDO1
+  type: trojan
+  server: bughost.com
+  port: 443
+  password: 3678d1d4-adc4-4e89-bd65xxxxxxxxxnxb
+  udp: true
+  sni: indo.barokahnet.my.id
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+# ==============================================
+- name: INDO2
+  type: vless
+  server: bughost.com
+  port: 443
+  uuid: 9a805561-cd77-4df0-8044bd65xxxxxxxxxnxb
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: indo.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: indo.barokahnet.my.id
+# ==============================================
+- name: INDO3
+  type: vmess
+  server: bughost.com
+  port: 443
+  uuid: 9a805561-cd77-4df0-804vccxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: indo.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+# ==============================================
+- name: INDO4
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: 6d00faf1-cd0c-4120-bc2f-CCCNSBXXZX
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: indo.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+  # ==============================================    
+  - name: INDO5 
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: 620a5a45-72d1-4e17-8ca4-4a7chdgascxvs
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+  # ==============================================
   
   
   
