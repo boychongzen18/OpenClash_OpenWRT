@@ -66,6 +66,22 @@ proxies:
     headers:
       Host: indo.barokahnet.my.id
   # ==============================================    
+  - name: INDO5 
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: 620a5a45-72d1-4e17-8ca4-4a7chdgascxvs
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: indo.barokahnet.my.id
+  # ==============================================      
 
 
 	  
