@@ -28,6 +28,21 @@ Created Boychongzen aka Xroot
   unified-delay: true
   interface-name: eth1
  ---------------------------------------------
+ # ===============================================       
+ - name: INDO
+  type: trojan
+  server: akun.com
+  port: 443
+  password: d41da2ee-0c39-47e6-8244-xxxjxhgsjs
+  udp: true
+  sni: bugmulti.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: akun.com
+# =============================================== 
 
 - name: Trojan-WS
   type: trojan
