@@ -13,6 +13,7 @@ proxies:
   network: ws
   ws-opts:
     path: "/trojan"
+# ===============================================     
 - name: TROJAN
   type: trojan
   server: IP_PROXY
@@ -25,7 +26,8 @@ proxies:
   ws-opts:
     path: ws://bughost.com/trojan
     headers:
-      Host: Akun_TJ	  
+      Host: Akun_TJ
+# ===============================================       
 - name: VMESS
   type: vmess
   server: bughost/ip
@@ -42,6 +44,7 @@ proxies:
     path: wss://bughost/fastssh/freenetoc/6358a02c3a7bb/
     headers:
       Host: akun.v2-ray.com 
+# ===============================================       
 - name: ORBIT OPOK
   type: vless
   server: akun vless
@@ -56,7 +59,8 @@ proxies:
   ws-opts:
     path: /kuota-habis
     headers:
-      Host: bughost  
+      Host: bughost 
+ # ===============================================      
 - name: VMESS OPOK
   type: vmess
   server: injek.barokahnet.my.id
@@ -71,7 +75,22 @@ proxies:
   ws-opts:
     path: /WORRYFREE
     headers:
-      Host: TSEL.ME      
+      Host: TSEL.ME 
+# ===============================================       
+ - name: INDO
+  type: trojan
+  server: akun.com
+  port: 443
+  password: d41da2ee-0c39-47e6-8244-xxxjxhgsjs
+  udp: true
+  sni: bugmulti.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: akun.com
+# ===============================================     
       
       
       
