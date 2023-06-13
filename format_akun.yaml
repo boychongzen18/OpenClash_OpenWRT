@@ -190,21 +190,6 @@ Created Boychongzen aka Xroot
       headers:
         Host: xxxxxxxxxxxxxxxxxxxxxxxx
     interface-name: eth1   
----------------------------------------------    
-- name: Mode Jungkir Balik
-  type: vmess
-  server: IP / Bughost
-  port: 80
-  uuid: xxxxxxxxxxxxxxxxxxxxxxxx
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-  network: ws
-  ws-opts:
-    path: /v2ray     
- 
 ---------------------------------------------  
  - name: VLESS-WS
   type: vless
@@ -233,8 +218,9 @@ Created Boychongzen aka Xroot
   skip-cert-verify: true
   tls: true
   sni: BugHost
-  interface-name: eth1  
-  - name: INDO1
+  interface-name: eth1 
+ # ===============================================  
+- name: INDO1
   type: trojan
   server: bughost.com
   port: 443
