@@ -17,4 +17,3 @@ Cara Install IPK
 cd
 ls
 opkg install *.ipk
-rm -rf /tmp/luci*
