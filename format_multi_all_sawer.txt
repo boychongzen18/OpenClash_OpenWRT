@@ -3,6 +3,18 @@ proxies:
 # ===============================================
 ##-> RAKITAN BugHost AKRAB ANTI MALAK KUOTA  <-##
 # ===============================================
+- name: gRPC SNI
+  type: trojan
+  server: akun.com
+  port: 443
+  password: bd65xxxxxxxxxnxb
+  udp: true
+  sni: bughost.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan-grpc
+# ===============================================
 - name: INDO1
   type: trojan
   server: bughost.com
