@@ -5,7 +5,7 @@ proxies:
 # ===============================================
 - name: gRPC SNI
   type: trojan
-  server: akun.com
+  server: server.com
   port: 443
   password: bd65xxxxxxxxxnxb
   udp: true
