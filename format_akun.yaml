@@ -193,7 +193,7 @@ Created Boychongzen aka Xroot
 ---------------------------------------------  
  - name: VLESS-WS
   type: vless
-  server: xxxxxxxxxxxxxxxxx
+  server: barokahnet.com
   port: 443
   uuid: xxxxxxxxxxxxxxxxx
   alterId: 32
@@ -208,6 +208,22 @@ Created Boychongzen aka Xroot
     Host: BugHost.com
   interface-name: eth1    
 ---------------------------------------------  
+- name: VLESS WS ORBIT OPOK
+  server: akun.barokahnet.com
+  port: 80
+  type: vless
+  uuid: c9aba5b1-f408-48ab-a06b-2109715b4c1a
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: myorbit.id
+  network: ws
+  ws-opts:
+    path: /kuota-habis
+    headers:
+      Host: myorbit.id
+  udp: true	
+---------------------------------------------
 - name: Akun_Sock5
   type: socks5
   server: xxxxxxxxxxxxxxxxx
