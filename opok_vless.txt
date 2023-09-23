@@ -1,0 +1,37 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ===============================================
+    ##-> RAKITAN BugHost OPOK SI MERAH <-##
+# ===============================================
+- name: OPOK KARTU TSEL
+  server: akun.barokahnet.my.id
+  port: 80
+  type: vless
+  uuid: c9aba5b1-f408-48ab-a06b-2109715b4c1a
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
+  udp: true
+# ===============================================
+- name: OPOK KARTU ORBIT
+  server: akun.barokahnet.my.id
+  port: 80
+  type: vless
+  uuid: c9aba5b1-f408-48ab-a06b-2109715b4c1a
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: myorbit.id
+  network: ws
+  ws-opts:
+    path: /kuota-habis
+    headers:
+      Host: myorbit.id
+  udp: true
+# ===============================================
