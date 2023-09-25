@@ -1,0 +1,16 @@
+Download Scriptnya
+
+Buka Terminal
+
+wget --no-check-certificate "https://raw.githubusercontent.com/kulo-sinten/jam-hp-stb/main/jam.sh" -O /usr/bin/jam.sh && chmod +x /usr/bin/jam.sh
+
+
+
+Buka Menu OpenWR
+
+System - Startup
+/usr/bin/jam.sh bug.com:port
+
+
+
+NB : Khusus Akun Vmess Auto Singkron
