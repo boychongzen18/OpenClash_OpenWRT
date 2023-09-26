@@ -1,0 +1,38 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ===============================================
+     ##-> RAKITAN BugHost All Saweran   <-##
+# ===============================================
+- name: VMESS PORT 443
+  type: vmess
+  server: bughost.com
+  port: 443
+  uuid: fce5a8ff-b19e-4b30-a8e5-e07832dd1b8f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: akun.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+# ===============================================
+- name: VMESS PORT 80
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: 190ebf36-3c58-444c-bbf5-60496f864f85
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: false
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.barokahnet.my.id
+# ===============================================
