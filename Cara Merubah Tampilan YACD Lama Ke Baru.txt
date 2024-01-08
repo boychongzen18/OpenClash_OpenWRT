@@ -16,3 +16,6 @@ https://raw.githubusercontent.com/boychongzen18/OpenClash_OpenWRT/main/YACD.zip
 Ektrak File YACD.zip
 
 Copy Paste Folder yacd >> usr/share/openclash/ui
+
+
+Creator Boychongzen aka Xroot
