@@ -1,0 +1,18 @@
+CARA MERUBAH TAMPILAN LAMA YACD
+
+
+TAMPILAN LAMA 
+https://raw.githubusercontent.com/boychongzen18/OpenClash_OpenWRT/main/yacd2.png
+
+TAMPILAN BARU
+https://raw.githubusercontent.com/boychongzen18/OpenClash_OpenWRT/main/yacd1.png
+
+
+
+Download Bahan2nya
+
+https://raw.githubusercontent.com/boychongzen18/OpenClash_OpenWRT/main/YACD.zip
+
+Ektrak File YACD.zip
+
+Copy Paste Folder yacd >> usr/share/openclash/ui
