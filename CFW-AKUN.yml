@@ -1,0 +1,46 @@
+proxies:
+- name: VMESS SATU
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: cbba8120-8f1b-4bff-ad28-xxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.boychongzen.online
+- name: VMESS DUA
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: d135f9aa-e890-46ca-870b-xxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.boychongzen.online    
+- name: VMESS TIGA
+  type: vmess
+  server: bughost.com
+  port: 80
+  uuid: d66a677d-ee31-4eb8-babf-xxxxxxxxxxxxxxxxxx
+  alterId: 0
+  cipher: auto
+  udp: false
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: akun.boychongzen.online
