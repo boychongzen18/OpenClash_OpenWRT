@@ -1,0 +1,54 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ===============================================
+   ##-> RAKITAN BugHost XL PROTEKSI  <-##
+# ===============================================
+- name: Mode ATAS Non TLS
+  server: proteksi.barokahnet.my.id
+  port: 80
+  type: vless
+  uuid: d12c87ff-b550-4737-a49d-4540e1015c51
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: pointing.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: pointing.barokahnet.my.id
+# ===============================================
+- name: Mode BAWAH Non TLS
+  server: pointing.barokahnet.my.id
+  port: 80
+  type: vless
+  uuid: e77d42dc-fcc7-4a81-94c7-94b26d6c9283
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: proteksi.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: proteksi.barokahnet.my.id
+# ===============================================
+- name: Mode SNI Non TLS
+  server: pointing.barokahnet.my.id
+  port: 80
+  type: vless
+  uuid: e77d42dc-fcc7-4a81-94c7-94b26d6c9283
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: proteksi.barokahnet.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: pointing.barokahnet.my.id
+# ===============================================
+
+
+
+NOTE :  Khusus Akun Poiting BugHost
