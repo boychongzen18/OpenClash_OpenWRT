@@ -41,12 +41,12 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: proteksi.barokahnet.my.id
+  servername: pointing.barokahnet.my.id
   network: ws
   ws-opts:
     path: /vless
     headers:
-      Host: pointing.barokahnet.my.id
+      Host: proteksi.barokahnet.my.id
 # ===============================================
 
 
