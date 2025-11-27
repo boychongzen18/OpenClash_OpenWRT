@@ -1,0 +1,32 @@
+proxies:
+#=//=# Telegram > t.me/lunatech_store #=//=#
+#=//=# Telegrum > t.me/lunatech_channel #=//=#
+
+- name: IDN
+  server: herza2.lunatech.my.id
+  port: 443
+  type: trojan
+  password: 8bd2c7f5-f200-446e-bd07-f82588e1a62e
+  skip-cert-verify: true
+  sni: herza2.lunatech.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.lunatech.my.id
+  udp: true
+  
+- name: SGP
+  server: herza2.lunatech.my.id
+  port: 443
+  type: trojan
+  password: 8bd2c7f5-f200-446e-bd07-f82588e1a62e
+  skip-cert-verify: true
+  sni: herza2.lunatech.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.lunatech.my.id
+  udp: true
+  
