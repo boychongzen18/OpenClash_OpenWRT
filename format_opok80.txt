@@ -1,0 +1,22 @@
+# RAKITAN CONFIG Boychongzen aka Xroot
+proxies:
+# ===============================================
+   ##-> RAKITAN BugHost 2 MODEM ALL COMBO  <-##
+# ===============================================
+- name: HOWDY-NTLS
+  type: vmess
+  server: bug opok
+  port: 80
+  uuid: ganti-uuid-ini
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: bughost.10.lowh.net
+# interface-name: eth1
+#======================================
