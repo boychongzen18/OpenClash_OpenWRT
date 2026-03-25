@@ -91,7 +91,28 @@ proxies:
     headers:
       Host: akun.com
 # ===============================================     
-      
+- name: Socks5 (SNI)
+  type: socks5
+  server: SERVER.COM
+  port: 443
+  username: USERNAME
+  password: PASSWORD
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  sni: BUGSNI.COM
+# ===============================================
+- name: Hy2
+  type: hysteria2
+  server: domain.com
+  port: 443
+  password: password_anda
+  auth-str: password_anda # Tergantung versi core
+  sni: domain.com
+  skip-cert-verify: true
+  up: "20 Mbps"
+  down: "100 Mbps"
+# ===============================================      
       
       
       
